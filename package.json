@@ -4,18 +4,18 @@
   "main": "index.js",
   "scripts": {
     "build": "npm install --prefix frontend && npm install --prefix backend && npm run build --prefix frontend",
-    "start": "npm run start --prefix backend",
+    "start": "npm run start --prefix backend"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/burakorkmez/fullstack-chat-app.git"
+    "url": "git+https://github.com/Antariksh2k04/Vartalaap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/burakorkmez/fullstack-chat-app/issues"
+    "url": "https://github.com/Antariksh2k04/Vartalaap.git/issues"
   },
-  "homepage": "https://github.com/burakorkmez/fullstack-chat-app#readme",
+  "homepage": "https://github.com/Antariksh2k04/Vartalaap#readme",
   "description": ""
 }
