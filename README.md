@@ -7,8 +7,7 @@ A real-time chat application built with the **MERN stack** (MongoDB, Express.js,
 ## 🚀 Features
 
 - 💬 Real-time messaging with Socket.io  
-- 👥 Join and chat in public rooms  
-- 🧑‍🤝‍🧑 User authentication (optional - add JWT/local auth)  
+- 🧑‍🤝‍🧑 User authentication (using JWT tokens)  
 - 🌗 Theme support (light/dark/custom themes using DaisyUI)  
 - 💻 Responsive UI with Tailwind CSS
 
@@ -61,55 +60,8 @@ npm install
 npm start
 ```
 
-The app will run at: [http://localhost:3000](http://localhost:3000)
-
 ---
 
-## 🛠️ Folder Structure
-
-```
-mern-chat-app/
-├── client/              # React frontend
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   └── index.css    # Tailwind and DaisyUI setup
-├── server/              # Express backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── socket.js        # Socket.io logic
-│   └── server.js
-```
-
----
-
-## 🎨 Tailwind & DaisyUI Setup (Client Side)
-
-**tailwind.config.js**
-```js
-module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
-  theme: {
-    extend: {},
-  },
-  plugins: [require('daisyui')],
-  daisyui: {
-    themes: ['light', 'dark', 'cupcake', 'forest'], // you can customize themes here
-  },
-}
-```
-
-**index.css**
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
----
 
 ## 🧪 Example Features
 
@@ -122,11 +74,8 @@ module.exports = {
 
 ## 📌 To Do (Optional Enhancements)
 
-- ✅ Add private chat / DMs  
-- ✅ Add user authentication (JWT or OAuth)  
-- ✅ Add typing indicators  
-- ✅ Add emoji support  
-- ✅ Persist messages in DB
+- ✅ Add chatbots   
+- ✅ Add typing indicators    
 
 ---
 
